@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> <!-- contents of the head element are not displayed on the page. Instead it contains metadata about the page -->
+<head>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -12,13 +12,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Carley Solton</title>
-  <meta name="description" content="This is the website of Carley Solton. She is a student of the University of Nothern Colorado and works as a Cloud Platform Engineer for a local telecommunication company. ">
-  <meta name="keywords" content="Carley Solton, business administration, northern colorado, houseplants, rare plants, philodrendon" >
+  <title>A Few Words About Me</title>
+  <meta name="description" content="This page is an overview of my professional and personal interests" >
+  <meta name="keywords" content="Carley Solton, about me" >
 
   <!-- Favicons -->
-  <link href="assets/img/Houseplant-Favicon.png" rel="icon"> <!-- replaced original favicon with houseplant-->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> <!-- not sure what this one is for-->
+  <link href="assets/img/Houseplant-Favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
@@ -36,25 +36,25 @@
 
 </head>
 
-<body> <!-- the body element contains the content of the webpage TEST123-->
+<body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSHJQ66"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= --> <!-- header element represents introductory content such as navigation aids and some heading elements-->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent"> 
-    <div class="container d-flex justify-content-between align-items-center"> <!-- div tag defines a section in the HTML document--used as a container for HTML elements--can be styled with CSS -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
 
       <div id="logo">
-        <h1><a href="index.html">Carley Solton</a></h1> <!-- use this to place your name at the top right of the page -->
+        <h1><a href="index.html">Carley Solton</a></h1> <!-- use this to place your name at the top left of the page THIS IS A TEST OF WEB VSTUDIO-->
       </div>
 
-      <nav id="navbar" class="navbar"> <!-- this section provides nagitation links -->
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li> <!-- call to CSS class for navigation formatting -->
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="about.html">About</a></li>
           <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
-          <li><a class="nav-link scrollto " href="research1.html">Research</a></li>
+          <li><a class="nav-link scrollto" href="research1.html">Research</a></li>
           <li><a class="nav-link scrollto" href="video.html">Video</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
         </ul>
@@ -63,32 +63,59 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= --> <!-- section element is a generic standalone section of the document -->
-  <section id="hero"> <!-- this section is formatting the top fold of the page and setting the background image with a call to hero-container class in CSS sheet -->
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Welcome to my website!</h1> <!-- Font style sizes etc are set in the hero section of the CSS sheet -->
-      <h2>I am a Full-time Business Administration student with a serious passion for plants!</h2>
-      <a href="about.html" class="btn-get-started">About me</a> <!-- this sets button font on the top fold -->
-    </div>
-  </section><!-- End Hero Section -->
-
   <main id="main">
 
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
       <div class="container">
-        <div class="row" data-aos="zoom-in">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3 class="cta-title">Click Here Now to View My Top Recommended Houseplants!</h3>
-            <p class="cta-text"> These are Houseplants I recommend for any knowledge and experience level. </p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="blog.html">Click here to get the plant list.</a>
-          </div>
+
+        <div class="d-flex justify-content-between align-items-center">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>A Few Words About Me</li>
+          </ol>
         </div>
 
       </div>
-    </section><!-- End Call To Action Section -->
+    </section><!-- Breadcrumbs Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">A Few Words About Me</h2>
+            <p>
+              I am a Business Administration student at the University of Northern Colorado. I absolutely love Houseplants and have been cultivating my knowledge on them for over 5 years now. Once I recieve my business degree, I plan on opening my own retail plant boutique to bring my knowledge of business and my passion for plants together!
+            </p>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title"><a href="">Educational Background</a></h4>
+              <p class="description">I am a dedicated student currently working on the attainment of my Bachelors of Science in General Business Administration. Before coming to UNC, I attended Front Range Community College in Longmont, Colorado and recevied my Associates of Arts degree in General Studies. I wasn't completely sure what I wanted to do just yet, but I knew I loved plants and psychology so most of my studies at FRCC consisted of horticultural and psychology classes. I eventually decided that my goal was to open my own plant boutique, and thus I chose to pursue a business degree to help me gain entreprenuerial knowledge to assist in running a small business.
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">Professional Background</a></h4>
+              <p class="description">I have worked for a variety of different companies and have continuously elected to work for smaller, family owned businesses. My love for plants stems from my very first job at a local nursery and garden center. Currently, I am amployed at a local flower farm in Berthoud, Colorado, as well as working as a Cloud Platform Engineer for a national telecommunications company. I strive to gain knowledge in every aspect of my life and actively look to gain new skills. Having a wide background in many different fields has allowed me to be open to any opportunity that comes my way! </p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title"><a href="">More About Me</a></h4>
+              <p class="description">When I'm not attending to my responsibilities or caring for my extensive plant collection, I spend my time exploring Colorado and traveling with my lovely boyfriend, my best friends, or my family. I absolutely love the outdoors and enjoy water sports such as Kayaking and Paddleboarding! I also have many different pets that I love with my whole heart. I have two Saint Bernards, Mara and Indie, a Shorkie named Beau, Ozzy (the coolest cat around), and Alfred the Goldfish. </p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
 
   </main><!-- End #main -->
 
