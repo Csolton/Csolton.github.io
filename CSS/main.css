@@ -11,6 +11,10 @@ body
 {
   background: url(../img/Houseplant-background.jpg) top center;
 }
+img
+{ 
+  float: left;
+}
 
 
       
