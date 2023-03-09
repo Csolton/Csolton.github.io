@@ -2,18 +2,23 @@
 { font-family: sans-serif;
   color: light teal;
 }
- h1, h2, h3
+ h1
 {
     font--family: Aerial;
-     text-decoration: dark green wavy underline;
+     text-decoration: dark green dotted underline;
 }
+h2, h3
+{
+  font--family: aerial;
+  color: dark grey;
+ {
 html, body
 {
   background-color: light green; 
 }
 img
 { 
-  border: 20px
+  border: 20px;
 }
 
 
