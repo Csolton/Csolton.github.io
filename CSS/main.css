@@ -7,9 +7,9 @@
     font--family: Aerial;
      text-decoration: dark green wavy underline;
 }
-body
+html, body
 {
-  background-color: light green; top center;
+  background-color: light green; 
 }
 img
 { 
