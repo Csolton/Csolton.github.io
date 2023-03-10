@@ -1,16 +1,17 @@
 *
 { font-family: Libre-Baskerville;
-  color: light teal;
+  color: rgb(53, 177, 177);
 }
  h1
 {
     font-family: Libre-Baskerville;
-     text-decoration: green dotted underline;
+    Color: black;
+     text-decoration: rgb(94, 134, 94) dotted underline;
 }
 h2, h3
 {
-  font--family: aerial;
-  color: dark grey;
+  font-family: aerial;
+  color: rgb(53, 52, 52);
 }
    
 html, body
