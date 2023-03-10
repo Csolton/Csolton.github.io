@@ -1,16 +1,16 @@
 *
-{ font-family: Libre-Baskerville;
+{ font-family: Arial;
   color: rgb(44, 79, 79);
 }
  h1
 {
-    font-family: Libre-Baskerville;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     Color: black;
      text-decoration: rgb(55, 83, 55) dotted underline;
 }
 h2, h3
 {
-  font-family: aerial;
+  font-family: arial;
   color: rgb(74, 72, 72);
 }
    
