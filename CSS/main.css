@@ -22,7 +22,7 @@ img
 { 
   border: 20px;
 }
-input
+input, select, option
 {
   color: black
 }
