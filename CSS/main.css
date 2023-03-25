@@ -16,7 +16,7 @@ h2, h3
    
 body
 {
-  background-image: url(..images/background.jpg)
+  background-image: url("background.jpg");
 }
 img
 { 
