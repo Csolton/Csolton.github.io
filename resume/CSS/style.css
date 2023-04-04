@@ -1,1 +1,28 @@
-stylesheet
+*
+{ font-family: Arial;
+  color: rgb(44, 79, 79);
+}
+ h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    Color: black;
+     text-decoration: rgb(55, 83, 55) dotted underline;
+}
+h2, h3
+{
+  font-family: arial;
+  color: rgb(74, 72, 72);
+}
+   
+body
+{
+  background-color: rbg(0,20,50)
+}
+img
+{ 
+  border: 20px;
+}
+li
+{ 
+  color:purple
+}
