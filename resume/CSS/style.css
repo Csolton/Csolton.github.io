@@ -5,7 +5,7 @@
  h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    Color: black;
+    Color: dark green;
      text-decoration: rgb(55, 83, 55) dotted underline;
 }
 h2, h3
@@ -16,7 +16,7 @@ h2, h3
    
 body
 {
-  background-color: rbg(0,20,50)
+  background-color: light blue
 }
 img
 { 
