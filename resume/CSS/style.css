@@ -2,19 +2,24 @@
 { font-family: Arial;
   color: rgb(44, 79, 79);
 }
+header
+{
+  color: black;
+  text-size: 20px;
 nav
 {
-  text-style: bold
+  text-style: bold;
+  font-family: cursive;
 }
  h1
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif;
     Color: black;
      text-decoration: teal underline;
 }
 h2
 {
-  font-family: arial;
+  font-family: serif;
   color: cornflowerblue;
 }
 h3
