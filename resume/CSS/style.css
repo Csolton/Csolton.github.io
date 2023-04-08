@@ -44,3 +44,13 @@ li
 { 
   color: dimgray;
 }
+.aligned 
+{
+   display: flex;
+   align-items: center;
+}
+          
+ span 
+{
+ padding: 10px;
+ }
