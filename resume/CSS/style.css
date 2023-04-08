@@ -33,9 +33,9 @@ img
    border: 1px solid gray;
    margin: 5px 10px;
 }
-img.floatright
+img.floatleft
 {
- float: right;
+ float: left;
 }
   
 li
