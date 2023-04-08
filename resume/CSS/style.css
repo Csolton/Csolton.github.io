@@ -32,12 +32,7 @@ img
    padding: 2px;
    border: 1px solid gray;
    margin: 5px 10px;
-    max-width: 100%;
-}
-
-img.floatright
-{
-  float: right
+   max-width: 100%;
 }
 
 li
