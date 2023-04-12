@@ -21,6 +21,7 @@ body
 img
 { 
   border: 20px;
+  width: 80vw
 }
 input, select, option
 {
