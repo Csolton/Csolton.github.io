@@ -28,5 +28,9 @@ input, select, option
   color: black;
 }
 
+iframe
+{
+  width: 80vw;
+}
 
       
