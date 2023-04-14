@@ -13,9 +13,11 @@ h2, h3
   font-family: arial;
   color: rgb(74, 72, 72);
 }
-   
-body
+
+html, body 
 {
+    max-width: 100%;
+    overflow-x: hidden;
   background: linear-gradient(honeydew, lavenderblush, lavender);
 }
 img
