@@ -5,8 +5,7 @@
  h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    Color: black;
-     text-decoration: rgb(55, 83, 55) dotted underline;
+    Color: #BACFFF;
 }
 h2, h3
 {
@@ -19,7 +18,7 @@ html, body
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
-  background: linear-gradient(honeydew, lavenderblush, lavender);
+  background: black;
 }
 img
 { 
@@ -27,14 +26,10 @@ img
 }
 input, select, option
 {
-  color: black;
+  color: #BACFFF;
 }
 
 iframe
-{
-  width: 80vw;
-}
-table
 {
   width: 80vw;
 }
