@@ -5,7 +5,7 @@ color: white;
 li
 { 
   float: middle;
-  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 li a {
   display: block;
