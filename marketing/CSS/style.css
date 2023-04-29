@@ -10,7 +10,7 @@ input[type=button]
   text-align: center;
   font-size: 24px;
   padding: 12px 28px;
-  border-radius: 40%;
+  border-radius: 20%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 input[type=button]:active {
