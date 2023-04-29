@@ -2,7 +2,7 @@ p
 {
 color: white;
 }
-input[type=button]
+a
 {
   background-color: #BACFFF;
   color: white;
@@ -13,7 +13,7 @@ input[type=button]
   border-radius: 20%;
   box-shadow: 0 8px 16px 0 grey, 0 6px 20px 0 grey;
 }
-input[type=button]:active {
+a:active {
   background-color: white;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
