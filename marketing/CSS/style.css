@@ -2,7 +2,7 @@
 { font-family: Arial;
   color: rgb(44, 79, 79);
 }
-.button
+input[type=button]
 {
   background-color: #BACFFF;
   color: white;
@@ -13,7 +13,7 @@
   border-radius: 40%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.button:active {
+input[type=button]:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
