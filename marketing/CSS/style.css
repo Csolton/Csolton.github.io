@@ -1,6 +1,6 @@
-*
-{ font-family: Arial;
-  color: rgb(44, 79, 79);
+p
+{
+color: white;
 }
 input[type=button]
 {
@@ -39,11 +39,7 @@ html, body
 }
 img
 { 
-  border: 20px;
-}
-input, select, option
-{
-  color: #BACFFF;
+  border: 2px solid #BACFFF;
 }
 
 iframe
