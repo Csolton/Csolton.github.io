@@ -4,7 +4,7 @@ color: white;
 }
 li
 { 
-  float: left;
+  float: middle;
   border-right: 1px solid black;
 }
 li a {
